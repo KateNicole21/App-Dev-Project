@@ -4,9 +4,7 @@ import 'package:homeservice/repairdetails.dart';
 class RepairRequest extends StatefulWidget {
   const RepairRequest({super.key});
 
-  String get title => null;
 
-  String get description => null;
 
   @override
   _RepairRequestState createState() => _RepairRequestState();
