@@ -3,6 +3,7 @@ import 'package:homeservice/appointment.dart';
 import 'package:homeservice/homepage.dart';
 import 'package:homeservice/intropage.dart';
 import 'package:homeservice/loginpage.dart';
+import 'package:homeservice/profile.dart';
 import 'package:homeservice/signuppage.dart';
 
 
@@ -20,7 +21,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: AppointmentPage(),
+      home: const AccountPage(),
       routes: {
         '/homepages':(context) => const HomePage(),
         '/loginpage': (context) => const LoginPage(),
